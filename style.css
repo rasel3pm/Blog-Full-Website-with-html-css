@@ -227,3 +227,18 @@ html {
 
 
 /* helth tips style end  */
+
+
+/* footer style start  */
+
+.footer-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-logo img {
+    width: 30%;
+}
+
+
+/* footer style start  */
