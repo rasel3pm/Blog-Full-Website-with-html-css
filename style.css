@@ -8,6 +8,12 @@
     list-style: none;
 }
 
+p,
+a {
+    color: rgb(82, 79, 79);
+    text-transform: unset;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -87,7 +93,7 @@ html {
 
 .more-top {
     padding: 10px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .top-one {
@@ -98,6 +104,7 @@ html {
 
 .top-one-img img {
     width: 90px;
+    border-radius: 5px;
 }
 
 
