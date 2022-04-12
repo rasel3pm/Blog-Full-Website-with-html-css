@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog website</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -13,6 +14,26 @@
 </head>
 
 <body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+           <i class="fa fa-bars" aria-hidden="true"></i>
+          </label>
+            <label class="logo">First News</label>
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <i class="fa-solid fa-sun"></i>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
     <!-- live news heading start -->
     <section>
         <div class="live-news-area">
@@ -493,7 +514,7 @@
 
     <!-- footer section end -->
 
-
+    <script src="./main.js"></script>
 </body>
 
 </html>
