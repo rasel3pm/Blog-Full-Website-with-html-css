@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 html {
@@ -27,6 +28,31 @@ html {
 
 .root-btn:hover {
     background-color: green;
+    color: white;
+}
+
+
+/* live news area */
+
+.live-news-area {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    margin: 0px 70px;
+}
+
+.title-live-news {
+    background-color: aqua;
+    text-align: center;
+    width: 120px;
+    border-right: 5px solid red;
+}
+
+.live-news {
+    background-color: black;
+    text-align: center;
+}
+
+.live-news p {
     color: white;
 }
 
@@ -231,13 +257,49 @@ html {
 
 /* footer style start  */
 
+footer {
+    background-image: url("./images/footer.jpg");
+}
+
 .footer-area {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr 1fr;
+    padding: 30px;
+}
+
+.important-link h4 {
+    color: lightgray;
+}
+
+.important-link a {
+    color: rgb(31, 202, 245);
+}
+
+.footer-desc {
+    padding: 20px 0px;
+}
+
+.footer-desc p {
+    color: lightgray;
 }
 
 .footer-logo img {
-    width: 30%;
+    width: 25%;
+}
+
+.social-link i {
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.copyright {
+    display: block;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: rgb(158, 152, 152);
 }
 
 

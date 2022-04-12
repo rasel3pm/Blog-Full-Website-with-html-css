@@ -1,4 +1,8 @@
 @media only screen and (max-width:600px) {
+    .live-news-area {
+        grid-template-columns: 2fr 10fr;
+        margin: 0px 0px;
+    }
     .hero-section {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -37,6 +41,10 @@
         grid-template-columns: 1fr;
     }
     .helth-tips-left {
+        grid-template-columns: 1fr;
+    }
+    .footer-area {
+        display: grid;
         grid-template-columns: 1fr;
     }
 }
