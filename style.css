@@ -9,14 +9,15 @@
 }
 
 :root {
-    --primary-color:
+    --primary-color: #3498db;
+    --secondery-color: #7f8c8d;
+    --tersiary-color: #2c3e50;
 }
 
 p,
 a {
-    color: rgb(82, 79, 79);
+    color: var(--secondery-color);
     text-transform: unset;
-    background-color: var(--primary-color);
 }
 
 html {
@@ -28,7 +29,7 @@ html {
 }
 
 .root-btn {
-    padding: 6px 20px;
+    padding: 4px 20px;
     border: 1px solid green;
     text-decoration: none;
     border-radius: 50px;
@@ -75,7 +76,7 @@ html {
     grid-template-columns: 8fr 4fr;
     gap: 10px;
     margin: 0px 70px;
-    border: 3px solid green;
+    border: 2px dotted green;
 }
 
 .top-news {
@@ -265,6 +266,41 @@ html {
 
 
 /* helth tips style end  */
+
+
+/* newslater style start  */
+
+.newslater-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: var(--tersiary-color);
+    text-align: center;
+}
+
+.newslater-area>input[type="email"] {
+    width: 30%;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    border: 3px solid tomato;
+}
+
+.newslater-area>input[type="button"] {
+    width: 120px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/* newslater style end  */
 
 
 /* footer style start  */

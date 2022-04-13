@@ -47,4 +47,7 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+    .newslater-area>input[type="email"] {
+        width: 50%;
+    }
 }
